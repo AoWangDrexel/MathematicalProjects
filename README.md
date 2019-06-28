@@ -1,2 +1,4 @@
-# Monte-Carlo-Inspired
-Anything and Everything of the Mathematical Monte Carlo Simulations
+#Pi Simulations
+Simulations to Approximate Pi
+
+1. Monte Carlo Method
