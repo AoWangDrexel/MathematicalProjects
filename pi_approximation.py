@@ -19,11 +19,11 @@ record_accurate = 0;
 
 while(True):
     # random x and y coordinates, - 0.5 <= x < 0.5, -0.5 <= y < 0.5
-    rand_x = random.random() - 0.5;
-    rand_y = random.random() - 0.5;
+    rand_x = random.random() - 0.5
+    rand_y = random.random() - 0.5
     
     # testing if random coordinates are on or inside the circle of radius 1/2
-    r = math.sqrt(math.pow(rand_x,2)+math.pow(rand_y,2)) <= 1/2;
+    r = math.sqrt(math.pow(rand_x,2)+math.pow(rand_y,2)) <= 1/2
     if(r):
         in_circle += 1
     total += 1
