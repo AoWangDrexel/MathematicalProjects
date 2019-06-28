@@ -1,4 +1,3 @@
-Pi Simulations
-Simulations to Approximate Pi
+Pi Simulations to Approximate Pi
 
 1. Monte Carlo Method
