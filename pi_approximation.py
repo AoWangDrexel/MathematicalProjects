@@ -15,7 +15,7 @@ total = 0
 # square is 1 by 1
 # circle radius = 1/2
 
-record_accurate = 0;
+record_accurate = 0
 
 while(True):
     # random x and y coordinates, - 0.5 <= x < 0.5, -0.5 <= y < 0.5
