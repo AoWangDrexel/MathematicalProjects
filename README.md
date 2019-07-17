@@ -7,5 +7,5 @@ Definition: a technique in which a large quantity of randomly generated numbers 
 * Math and Random library
 * JavaScript's Canvas
 * Window methods: confirm(), alert()
-* Buttons
+* HTML: Button usage
 * CSS: font-family, margin, border, etc.
