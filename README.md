@@ -11,3 +11,7 @@ Definition: a technique in which a large quantity of randomly generated numbers 
 * Window methods: confirm(), alert()
 * HTML: Button usage
 * CSS: font-family, margin, border, etc.
+
+## 2. Sorting Algorithms
+* Bubble 
+* Selection
