@@ -1,0 +1,13 @@
+#can {
+  border: 1px solid black;
+  margin: auto;
+  display: block;
+}
+h1,
+input {
+  font-family: "Merriweather", serif;
+  text-align: center;
+  margin: auto;
+  display: block;
+}
+
