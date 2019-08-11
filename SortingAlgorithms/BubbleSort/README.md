@@ -8,6 +8,8 @@
 # Resources:
 * https://en.wikipedia.org/wiki/Bubble_sort
 * https://www.algorithmist.com/index.php/Bubble_sort
+* https://www.youtube.com/watch?v=xli_FI7CuzA
+* https://www.youtube.com/watch?v=lyZQPjUT5B4 (fun dancing video)
 
 ### The visualization of the sort can be done with Javascript's p5.js library or with Processing
 
