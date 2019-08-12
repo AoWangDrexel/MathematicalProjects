@@ -19,3 +19,6 @@ Definition: a technique in which a large quantity of randomly generated numbers 
 ## 3. Searching Algorithms
 * Linear
 * Binary
+
+## 4. Cryptography
+
