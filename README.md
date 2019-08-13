@@ -21,6 +21,6 @@ Definition: a technique in which a large quantity of randomly generated numbers 
 * Binary
 
 ## 4. Cryptography
-1. Morse Code
-2. Reverse Cipher
-3. Caesar Cipher
+* Morse Code
+* Reverse Cipher
+* Caesar Cipher
