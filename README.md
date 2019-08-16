@@ -24,3 +24,5 @@ Definition: a technique in which a large quantity of randomly generated numbers 
 * Morse Code
 * Reverse Cipher
 * Caesar Cipher
+* Transposition:
+  * Columnar
