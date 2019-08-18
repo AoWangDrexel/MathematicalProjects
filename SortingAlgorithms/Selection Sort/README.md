@@ -2,6 +2,7 @@
 ## Explanation
 * The algorithm proceeds by finding the smallest (or largest, depending on sorting order) element in the unsorted sublist, exchanging (swapping) it with the leftmost unsorted element (putting it in sorted order), and moving the sublist boundaries one element to the right
 
+## Time Complexity
 * Best case: Ω(n^2)
 * Worst case: Θ(n^2)
 
