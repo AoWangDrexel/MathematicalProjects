@@ -6,7 +6,7 @@
 * Best case: Ω(n)
 * Worst case: Θ(n^2)
 
-# Resources:
+## Resources:
 * https://en.wikipedia.org/wiki/Bubble_sort
 * https://www.algorithmist.com/index.php/Bubble_sort
 * https://www.youtube.com/watch?v=xli_FI7CuzA
