@@ -6,7 +6,7 @@
 * Best case: Ω(n^2)
 * Worst case: Θ(n^2)
 
-# Resources:
+## Resources:
 * https://en.wikipedia.org/wiki/Selection_sort
 * https://www.algorithmist.com/index.php/Selection_sort
 * https://www.youtube.com/watch?v=g-PGLbMth_g
