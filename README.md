@@ -15,6 +15,7 @@ Definition: a technique in which a large quantity of randomly generated numbers 
 ## 2. Sorting Algorithms
 * Bubble 
 * Selection
+* Insertion
 
 ## 3. Searching Algorithms
 * Linear
