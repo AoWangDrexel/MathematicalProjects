@@ -8,7 +8,7 @@
 * Best case: Ω(n)
 * Worst case: Θ(n^2)
 
-# Resources:
+## Resources:
 * https://en.wikipedia.org/wiki/Insertion_sort
 * https://www.youtube.com/watch?v=JU767SDMDvA
 
