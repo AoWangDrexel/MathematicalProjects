@@ -1,7 +1,7 @@
 '''
 Author: Ao Wang
 Date: 08/06/19 
-Description: Simple bubble sort algorithm
+Description: Bubble sort algorithm
 '''
 
 # swaps the elements
