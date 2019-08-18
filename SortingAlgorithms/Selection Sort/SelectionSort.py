@@ -1,7 +1,7 @@
 '''
 Author: Ao Wang
 Date: 08/07/19 
-Description: Simple selection sort algorithm
+Description: Selection sort algorithm
 '''
 
 # The function swaps two numbers in the list
