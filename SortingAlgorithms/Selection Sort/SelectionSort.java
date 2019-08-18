@@ -2,7 +2,7 @@
  * 
  * @author aowang
  * Date: 08/07/19
- * Description: Simple selection sort algorithm
+ * Description: Selection sort algorithm
  *
  */
 import java.util.Arrays;
