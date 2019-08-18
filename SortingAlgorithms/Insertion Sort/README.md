@@ -4,6 +4,7 @@
 2. Examine each item and compare it to items on its left
 3. Insert the item in the correct position in the array
 
+## Time Complexity
 * Best case: Ω(n)
 * Worst case: Θ(n^2)
 
