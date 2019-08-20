@@ -1,16 +1,20 @@
+/**
+ * @author aowang
+ * Date: 08/20/19
+ * Description: Merge Sort Algorithm
+ */
+
 import java.util.Arrays;
 
 public class MergeSort {
 
 	public static void main(String[] args) {
-
 		int[] nums = { 0, -1, 100, 5, -99, 85, 90, 3 };
 		System.out.println("Unsorted: " + Arrays.toString(nums));
 		System.out.println("Sorted: " + Arrays.toString(mergeSort(nums)));
 	}
 
 	public static int[] mergeSort(int[] nums) {
-
 		if (nums.length == 1) {
 			return nums;
 		}
@@ -34,7 +38,6 @@ public class MergeSort {
 	}
 
 	public static int[] merge(int[] left, int[] right) {
-
 		int[] result = new int[left.length + right.length];
 
 		int leftInd = 0;
