@@ -4,29 +4,30 @@ Date: 08/12/19
 Description: Morse code encryper and decryter
 """
 
-# retrieves the morse code from a text file and cleans it up so the letters
+# The function retrieves the morse code from a text file and cleans it up so the letters
 # can be stored in the keys and code into the values
-codes = ""
-with open("morseTable.txt", "r") as code:
-    codes = code.read()
-    
-# removes the escape sequences and white spaces
-codes.split("\n")
-codes = codes.split()
+def loadMorseTable():
+    codes = ""
+    with open("morseTable.txt", "r") as code:
+        codes = code.read()
 
-keys = []
-values = []
+    # removes the escape sequences and white spaces
+    codes.split("\n")
+    codes = codes.split()
 
-for i in range(len(codes)):
-    if(i % 2 == 0):
-        keys.append(codes[i])
-    else:
-        values.append(codes[i])
+    keys = []
+    values = []
 
-# creates the morse code dictionary
-morse_dict = {}
-for i in range(len(keys)):
-    morse_dict[keys[i]] = values[i]
+    for i in range(len(codes)):
+        if(i % 2 == 0):
+            keys.append(codes[i])
+        else:
+            values.append(codes[i])
+
+    # creates the morse code dictionary
+    morse_dict = {}
+    for i in range(len(keys)):
+        morse_dict[keys[i]] = values[i]
 
 # The function encrypts the plaintext into ciphertext and returns the string
 def encrypt(plain_text):
@@ -69,22 +70,26 @@ def decrypt(cipher_text):
     return decoded
 
 # intro
-print("Welcome to the Morse Code Encoding and Decoder!")
-print("CAUTION: Please seperate each morse symbol with a space and each word by seven spaces\n")
-choice = input("Would you like to encrypt (e) or decrypt (d)? ")
-print()
+def main():
+    loadMorseTable()
+    print("Welcome to the Morse Code Encoding and Decoder!")
+    print("CAUTION: Please seperate each morse symbol with a space and each word by seven spaces\n")
+    choice = input("Would you like to encrypt (e) or decrypt (d)? ")
+    print()
 
-if(choice == "e"):
-    text = input("What would you like to encrypt? ")
-    print()
-    print("Plaintext: " + text)
-    print("Ciphertext: " + encrypt(text))
-    
-elif(choice == "d"):
-    text = input("What would you like to decrypt? ")
-    print()
-    print("Ciphertext: " + text)
-    print("Plaintext: "+ decrypt(text))
-    
-else:
-    print("There must have been a problem!")
+    if(choice == "e"):
+        text = input("What would you like to encrypt? ")
+        print()
+        print("Plaintext: " + text)
+        print("Ciphertext: " + encrypt(text))
+
+    elif(choice == "d"):
+        text = input("What would you like to decrypt? ")
+        print()
+        print("Ciphertext: " + text)
+        print("Plaintext: "+ decrypt(text))
+    else:
+        print("There must have been a problem! Please try again")
+
+if __name__ == "__main__":
+    main()
