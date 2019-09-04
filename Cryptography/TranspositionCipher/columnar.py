@@ -44,7 +44,7 @@ def encrypt(plain_text, key):
     ordering = order(col)
     col = len(col)
     
-    plain_text = plain_text.replace(" ", "")
+    # plain_text = plain_text.replace(" ", "")
     
     # find the number of rows by rounding up the length of the text and num of columns
     row = math.ceil(len(plain_text)/col)
@@ -60,21 +60,21 @@ def encrypt(plain_text, key):
             if(idx < len(plain_text)):
                 grid[i,j] = plain_text[idx]
                 idx += 1
-            else:
-                r = random.randint(ord("A"), ord("Z"))
-                grid[i,j] = chr(r)
+#             else:
+#                 r = random.randint(ord("A"), ord("Z"))
+#                 grid[i,j] = chr(r)
                 
     cipher_text = ""    
     idx = 0
     
     # stores the cipher by the order from the list returned from def order(word)
-    while not idx > row:
+    while idx != col:
         i = ordering.index(idx)
         for j in range(row):
             cipher_text += grid[j,i]
         idx += 1
 
-    cipher_text = cipher_text.replace(" ", "")
+    # cipher_text = cipher_text.replace(" ", "")
     print(grid)
     return cipher_text
 
@@ -94,7 +94,7 @@ def decrypt(cipher_text, key):
     
     # storing back the letters of the cipher in the matrix
     # in the same order from which it came
-    while not idx >= col:
+    while idx < col:
         i = ordering.index(idx)
         for j in range(row):
             if l < len(cipher_text):
