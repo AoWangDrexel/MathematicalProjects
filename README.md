@@ -30,4 +30,5 @@ Definition: a technique in which a large quantity of randomly generated numbers 
   * [Columnar](https://github.com/AoWangDrexel/MathematicalProjects/tree/master/Cryptography/TranspositionCipher)
     * Simplified (Invent w/ Python)
     * Advanced (The process found on Wikipedia ;p)
-* Affine Cipher
+* [Affine Cipher](https://github.com/AoWangDrexel/MathematicalProjects/tree/master/Cryptography/AffineCipher)
+* Simple Substitution Cipher
